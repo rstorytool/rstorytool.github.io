@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">R Story</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore"><img src="pictures/logo5.png" /></h1>
+
+</div>
+
+
+<p><span class="math inline">\(~\)</span></p>
+<div id="about-our-tool" class="section level2">
+<h2>About our tool</h2>
+<p>R Story provides rural community leaders with relevant, digestible data to achieve economic development goals. Developed in collaboration with The Opportunity Project, an innovation program within the U.S. Census Bureau, R Story answers a key challenge that the team heard during product development: how to help small rural communities quickly and effectively integrate more data into their economic development efforts.</p>
+<p>R Story gathers and interprets the latest data available from reliable federal sources such as the U.S. Census, EPA, BLS, and more. The team selects demographic and economic data that are most relevant for small rural communities. Statistics are presented visually to be quickly digested and organized by region and audience for ease of use. Built with the advice and expertise of professional planners, community advocates, and academics, R Story provides communities with a tool to quantify their comprehensive economic development strategy (CEDS), support its implementation, and periodically measure performance economic development work. By connecting rural communities with digestible data, R Story aims to support increased use of data in each community’s advancement of local sustainable economic development goals.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="background-and-journey" class="section level2">
+<h2>Background and Journey</h2>
+<p>R Story was developed by graduate students from Columbia University as part of Census Open Innovation Lab’s The Opportunity Project to facilitate sustainable rural economic development through data and digital means.</p>
+<p>The R Story team began product development with numerous conversations with stakeholders to understand the economic development pain points for rural communities. We heard that rural communities are diverse in their assets and challenges. They have leaders who have in-depth knowledge of their area, the ability to effectively tell their communities’ stories, but are constrained by limited time and staff. Community leaders expressed the desire to integrate more data in their everyday work but did not have access to relevant data that can quickly be incorporated into their work.</p>
+<p>During the product development, R Story worked with user advocates who have vast experiences working with rural communities from the U.S. Environmental Protection Agency, National Association of Development Organizations, Rural Community Assistance Corporation, Rural Policy Research Institute, National Indian Gaming Associations, Council of State Community Development Agencies, and others.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="what-is-the-pilot-program" class="section level2">
+<h2>What is the Pilot Program?</h2>
+<p>R Story is currently seeking additional communities to serve as pilot communities. Pilot communities will take part in virtual meetings with the R Story team to talk about their economic development strategies as well as receive an analysis of the demographic and economic data for their county.</p>
+<p>Ideal pilot communities would be those in rural areas with fewer than 50,000 residents who have community economic development goals and can be at any stage of implementation.</p>
+<p>The process will begin with a discussion of the community’s goals and challenges in terms of economic development. R Story will perform a deep dive into the federal public data for each community, share the results of the data exploration, and seek feedback as to how the participant might use the data in their economic development work. Additionally, community members will receive access to the R Story prototype for use and feedback in their economic development work.</p>
+<p>As a first pilot community, R Story worked with Manistee, Michigan who continues to use R Story in their economic development work. Marc Miller (Economic Development Director of Manistee, Michigan) states that “this tool was created to allow leaders in economic development to save time and easily access the data we need to champion our communities”.</p>
+<p>For more information regarding the partnership program please check out this <a href="https://drive.google.com/file/d/1Rdossu-pB6rOTNyFTPPqKmClChROLQPj/view?usp=sharing">information packet</a>.</p>
+<p><span class="math inline">\(~\)</span></p>
+<div id="sign-up-to-be-a-pilot-community" class="section level4">
+<h4>Sign Up to be a Pilot Community</h4>
+<p>If you’re interested in participating as a pilot community for R Story, please fill out the form at this <a href="https://forms.gle/rNqLiPVp4szFWPzv8">link</a>.</p>
+<p>For any questions or enquiries about partnership, please contact us at <a href="mailto:rstorytool@gmail.com">rstorytool@gmail.com</a></p>
+<p><span class="math inline">\(~\)</span></p>
+<p><span class="math inline">\(~\)</span></p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="meet-the-team" class="section level3">
+<h3>Meet The Team</h3>
+<p><span class="math inline">\(~\)</span></p>
+<p><img src="pictures/alishapic.png" style="width:25.0%" /></p>
+<p><a href="https://www.linkedin.com/in/alisha-gurnani-4015a4167/">Alisha Gurnani</a></p>
+<p><span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span></p>
+<p><img src="pictures/kyungpic.png" style="width:25.0%" /></p>
+<p><a href="https://www.linkedin.com/in/kyungsuklee/">Kyung Suk Lee</a></p>
+<p><span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span></p>
+<p><img src="pictures/michellepic.png" style="width:25.0%" /></p>
+<p><a href="https://www.linkedin.com/in/michelleazee/">Michelle Zee</a></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

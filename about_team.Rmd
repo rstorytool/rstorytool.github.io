@@ -1,0 +1,35 @@
+---
+title: "Meet the Team"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+![](pictures/alishapic.png)
+
+[Alisha Gurnani](https://www.linkedin.com/in/alisha-gurnani-4015a4167/) 
+
+
+![](pictures/kyungpic.png)
+
+[Kyung Suk Lee](https://www.linkedin.com/in/kyungsuklee/) 
+
+
+
+![](pictures/michellepic.png)
+
+[Michelle Zee](https://www.linkedin.com/in/michelleazee/) 
+
+
+
+
+
+
+####For more details and information you can follow us/contact us on:
+
+Linkedin: [link](<https://www.linkedin.com/company/rstorytool>)
+Instagram: rstorytool
+Gmail:[mail](mailto:rstorytool@gmail.com)

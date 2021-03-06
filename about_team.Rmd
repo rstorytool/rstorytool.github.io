@@ -8,28 +8,41 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-![](pictures/alishapic.png)
-
-[Alisha Gurnani](https://www.linkedin.com/in/alisha-gurnani-4015a4167/) 
 
 
-![](pictures/kyungpic.png)
+$~$
+
+![](pictures/alishapic.png){width=25%}       
+
+[Alisha Gurnani](https://www.linkedin.com/in/alisha-gurnani-4015a4167/)    
+
+$~$
+$~$
+
+
+![](pictures/kyungpic.png){width=25%}
 
 [Kyung Suk Lee](https://www.linkedin.com/in/kyungsuklee/) 
 
+$~$
+$~$
 
 
-![](pictures/michellepic.png)
+![](pictures/michellepic.png){width=25%}
+
+
+
 
 [Michelle Zee](https://www.linkedin.com/in/michelleazee/) 
 
 
+<br>
+<small>
 
+For more details and information you can follow us/contact us on:
 
-
-
-####For more details and information you can follow us/contact us on:
-
-Linkedin: [link](<https://www.linkedin.com/company/rstorytool>)
-Instagram: rstorytool
-Gmail:[mail](mailto:rstorytool@gmail.com)
+Linkedin: [https://www.linkedin.com/company/rstorytool](<https://www.linkedin.com/company/rstorytool>)
+</p>
+Instagram: @rstorytool
+</p>
+Gmail:[rstorytool@gmail.com](mailto:rstorytool@gmail.com)

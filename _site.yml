@@ -1,14 +1,16 @@
 name: "R Story"
 output_dir: "."
 navbar:
-  title: "R Story"
-  #right:
-   # - text: "About"
-    #  href: index.html
- #   - text: "Pilot Community Recruitment"
- #     href: pilot.html
-  #  - text: "Meet the Team"
-   #   href: about_team.html
+  title: "Home"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Pilot Community Recruitment"
+      href: pilot.html
+    - text: "Meet the Team"
+      href: about_team.html
 output:
   html_document:
+    code_folding: hide
+    theme: flatly
   

@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #maybe an image of manistee?
 
+
 ## What is the Pilot Program? 
 
 R Story is currently seeking additional communities to serve as pilot communities. Pilot communities will take part in virtual meetings with the R Story team to talk about their economic development strategies as well as receive an analysis of the demographic and economic data for their county.
